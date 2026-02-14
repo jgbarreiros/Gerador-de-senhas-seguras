@@ -1,33 +1,39 @@
-# 🔐 Secure Password Generator
+🔐 Random Password Generator – Python
 
-Gerador de senhas aleatórias desenvolvido em Python, com foco em boas práticas de segurança e geração criptograficamente segura.
+Gerador de senhas aleatórias desenvolvido em Python, utilizando seleção randômica de múltiplos conjuntos de caracteres.
 
-## 🚀 Sobre o Projeto
+Projeto criado com foco em prática de lógica, manipulação de strings e geração automática de credenciais.
 
-Este projeto gera senhas fortes contendo:
+🚀 Como Funciona
 
-- Letras maiúsculas e minúsculas
-- Números
-- Caracteres especiais
-- 20 caracteres por padrão
+O script:
 
-O gerador utiliza o módulo `secrets` da biblioteca padrão do Python, garantindo maior segurança em comparação com o módulo `random`.
+Possui 3 conjuntos diferentes de caracteres
 
----
+Seleciona aleatoriamente um dos conjuntos
 
-## 🛠️ Tecnologias Utilizadas
+Escolhe um caractere aleatório dentro dele
 
-- Python 3
-- Biblioteca padrão `secrets`
-- Biblioteca `string`
-- `pyfiglet` (para assinatura estilizada no terminal)
+Repete o processo até gerar 20 caracteres
 
----
+Exibe a senha no terminal
 
-## 📦 Instalação
+Mostra uma assinatura personalizada utilizando pyfiglet
 
-Clone o repositório:
+🧠 Lógica Utilizada
 
-```bash
-git clone https://github.com/seuusuario/nome-do-repositorio.git
-cd nome-do-repositorio
+randint() para seleção aleatória
+
+Estrutura while para controle de repetição
+
+Indexação de string para captura de caracteres
+
+Biblioteca externa para estilização de saída
+
+🛠️ Tecnologias Utilizadas
+
+Python 3
+
+Biblioteca padrão random
+
+Biblioteca externa pyfiglet
